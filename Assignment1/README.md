@@ -25,11 +25,12 @@
 
 7. New VM instance will be opened in a new window
 8. This cmpe283-1.c file in the repository includes :
-*                Primary Process based controls (IA32_VMX_PROCBASED_CTLS)
-*                Secondary process based controls (IA32_VMX_PROCBASED_CTLS2)
-*                Exit controls (IA32_VMX_EXIT_CTLS)
-*                Entry controls (IA32_VMX_ENTRY_CTLS)
-*                Cannot include tertiary controls as it has Can set=No in primary controls
+
+              * Primary Process based controls (IA32_VMX_PROCBASED_CTLS) 
+              * Secondary process based controls (IA32_VMX_PROCBASED_CTLS2)
+              * Exit controls (IA32_VMX_EXIT_CTLS) 
+              * Entry controls (IA32_VMX_ENTRY_CTLS) 
+              * Cannot include tertiary controls as it has Can set=No in primary controls 
 9. Now, clone the git repository forked in step2, in the vm instance created in GCP
 10. Enter into the folder with cd foldername 
 11. install gcc and make using `sudo apt install gcc make`
